@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/logo2-removebg-preview.png">
+</head>
+<style>
+*{
+    margin: 0;
+}
+.navbar{
+  
+    height: 100px;
+    padding-left: 80px;
+    display: flex;
+    position: fixed;
+    width:100%;
+    background-color: rgb(250, 132, 22) ;
+}
+.logo1
+{
+padding-bottom: 30px;
+height: 120px; 
+
+
+}
+.navlinks{
+    width:70%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1px;
+    margin-left:300px;
+}
+.navlinks ul li{
+    display: inline;
+    padding-left: 40px;
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color:rgb(0, 23, 100);
+    margin-top: 50px;
+font-weight: bolder;
+}
+.navlinks ul  a:hover{
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.bg{
+    background-image: url(images/g1.jpeg);
+    width: 100%;
+    background-size: cover;
+    height: 80vh;
+    animation-name: back;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes back{
+    0%{background-image: url(images/g1.jpeg);}
+    40%{background-image: url(images/woman-enjoing-the-view.jpg);}
+    100%{background-image: url(images/Frequent-Traveler-Successful.jpg);}
+
+}
+.back{
+    height: 10vh;
+    border: 2px solid rgb(250, 132, 22) ;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+
+h2{
+    font-size: 30px;
+}
+.third{
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+footer{
+    background-color: rgb(250, 132, 22) ;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.frame{
+  margin-left: 20%;
+  box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.s1{
+  width: 60%;
+    margin-left: 20%;
+    background-color: rgb(250, 132, 22) ;
+    height: 11vh;
+    font-size: 100px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+
+}
+h1{
+  font-size: 100px;
+  color: white;
+}
+.sii{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.early{
+  width: 60%;
+    margin-left: 20%; 
+}
+.pun{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    background-color:rgb(250, 132, 22)  ;
+}
+.punji{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.bal{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    background-color:rgb(250, 132, 22)  ;
+}
+.BAL{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.pesha{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    background-color:rgb(250, 132, 22)  ;
+    margin-top: 390px;
+}
+.pesh{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+  
+}
+.sii{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.que{
+  width: 60%;
+    margin-left: 20%;
+    background-color: rgb(250, 132, 22) ;
+    height: 11vh;
+    font-size: 100px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    margin-top: 850px;
+  
+}
+.sii{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.qq{
+  width: 60%;
+    margin-left: 20%; 
+}
+.Kash{
+  background-color:rgb(250, 132, 22)  ;
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+}
+.para{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+}
+.gil{
+  width: 60%;
+    margin-left: 20%;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    background-color:rgb(250, 132, 22)  ;
+    margin-top: 480px;
+}
+.para1{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+}
+.sk{
+  width: 60%;
+    margin-left: 20%;
+    background-color: rgb(250, 132, 22) ;
+    height: 11vh;
+    font-size: 100px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 211, 211);
+    margin-top: 280px;
+}
+.para2{
+  width: 60%;
+    margin-left: 20%;
+    height: 11vh;
+}
+.end{
+    width: 100%;
+    background-color: rgb(250, 132, 22);
+    height: 40vh;
+    margin-top: 20%;
+    
+}
+.all{
+    margin-left: 10%;
+    padding-top: 40px;
+
+}
+.first{
+    margin-left: 45%;
+}
+.logos{
+    background-color: rgb(250, 132, 22);
+    width: 25%;
+   margin-left: 750px;
+ 
+}
+.circle{
+    height: 80px;
+    width: 100px;
+    background-color:rgb(250, 132, 22);
+    
+}
+.heading{
+    color: black;
+    font-size: 40px;
+}
+.center{
+    width: 40%;
+    background-color: rgb(250, 132, 22);
+    height: 6vh;
+    margin-left: 875px;
+    margin-top: 10px;
+}
+.last{
+    width: 40%;
+    margin-left: 650px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+}
+.last ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+.last ul li a{
+    text-decoration: none;
+    display: contents;
+}
+.foot2{
+    width: 100%;
+    background-color:rgb(250, 132, 22) ;
+    margin-top: 30px;
+    
+
+}
+.copy{
+    margin-left: 43%;
+}
+.header{
+    width: 100%;
+    height: 40vh;
+}
+.icons{
+    margin-left: 30px;
+}
+.top{
+    
+    font-size: 50px;
+  margin-right: 30%;
+    
+}
+.ui-widget{
+    margin-right: 20%;
+}
+
+
+</style>
+
+<body>
+    <div class="navbar">
+        <div>
+            <image class="logo1" src="images/uuuuuuuuuuu-removebg-preview.png">
+        </div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="PACKAGES.html">PACKAGES</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="precau.html">PRECAUTIONS</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg">
+
+    </div>
+    <div class="back">
+        <h2>Pakistan is rightfully regarded as one of the most striking adventure destinations in the world. Explore Pakistan Packages.</h2>
+    </div>
+    
+        <div class="third">
+            <table class="table" style="border: 2px solid rgb(250, 132, 22);">
+            
+                  <tr>
+                    <th style="border: 2px solid rgb(250, 132, 22); width: 35% ;">LIST OF PAKISTAN HOLIDAY PACKAGES</th>
+                    <th   style="border: 2px solid rgb(250, 132, 22); width: 40%;">NO. OF DAYS</th>
+                    <th scope="col"  style="border:rgb(250, 132, 22); width: 40%;">PRICE*</th>
+                  
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Simply Hunza</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22); ">	6 Days / 5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 60,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Simply Skardu</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	8 Days / 5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 90,000</td>
+                 
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Super Saver Azad Kashmir</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">6 Days / 5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 22,999</td>
+                  
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Inspirational Naran Kaghan</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22); ">4 Days / 3 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 30,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Simply Kumrat Valley</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	4 Days / 3 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 35,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Short trip to Murree Galyat</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">4 Days / 3 Nights	</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 2,4000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Sindh short trip</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22); ">6 Days/7 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs. 50,000
+                      </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Punjab short trip </th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">6 Days/5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs. 150000</td>
+                   
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Balochistan short trip</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">7 Days /8 Nights	</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">	Rs. 2,00000</td>
+                
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Pehawar short trip</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22); ">7 Days / 8 nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs :2,00000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Quetta Short trip</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">8 Days/7 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs: 1,50000</td>
+             
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Kashmir</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">6 Days 5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs: 3,00000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"  style="border: 2px solid rgb(250, 132, 22);">Skardu</th>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">6 Days 5 Nights</td>
+                    <td  style="border: 2px solid rgb(250, 132, 22);">Rs:	4,00000</td>
+                  </tr>
+                </table>
+                 
+    </div>
+<footer>
+    <p>Pakistan is so geographically varied that every adventure travel lover in the world would love to take Pakistan tour at least once in their lifetime. From lush green valleys to Cold deserts, and unexplored beaches to the second highest Mountain in the world, from Gilgit Baltistan of North to Ziarat of Baluchistan. Pakistan is blessed with natural landscapes; each one more beautiful than the other.
+
+        Apart from the geographical undulations, the diversity in the culture, food, language and even flora and fauna found in the various regions of Pakistan is quite fascinating. This affluence is the reason why Pakistan Tour Packages are so popular.</p>
+</footer>
+<div class="frame"><iframe width="75%" height="600" src="https://www.youtube.com/embed/DHnHpHkwqs4?si=n6akTrp1OLoGqLYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="s1">
+
+  <h1>SINDH
+  </h1>
+</div>
+<img class="sii" src="images/kkkkk.jpg">
+<p class="early">EARLY HISTORY
+  The earliest authentic history of Sindh dates from the time when Alexander the Great abandoned his scheme of conquest towards the Ganges, alarmed at the discontent of his soldiers. He embarked a portion of the army in boats, floated them down the Jhelum and the Chenab, and marched the remainder on the banks of the river till he came to the Indus. There he constructed a fleet, which sailed along the coast towards the Persian Gulf with part of his forces, under the command of Nearchus and Ptolemy, whilst Alexander himself marched through Southern Baluchistan and Persia to Seistan or Susa. At that time Sindh was in the possession of the Hindus, the last of whose rulers was Raja Sahasi, whose race, as is reported by native historians, governed the kingdom for over two thousand years. The Persian monarchs were probably alluded to, for in the sixth century BC Sindh was invaded by them, They defeated and slew the monarch in a pitched battle and plundered the province and then left. Eight years after his accession to the Persian throne, Darius I, son of Hystaspes extended his authority as far as the Indus. This was about 513 BC.
+  
+  The Arab conquest of Sindh by Muhammad Bin Qasim in 712 AD gave the Muslims a firm foothold on the sub-continent. The description of Hiun Tsang, a Chinese historian, leaves no doubt that the social and economic restrictions inherent in the caste differentiations of Hindu society had however, gradually sapped the inner vitality of the social system and Sindh fell without much resistance before the Muslim armies. According to Al-Idreesi, the famous city of Al-Mansura was founded during the reign of Mansur (754-775 AD) the second Khalifa of the Abbasid dynasty. Khalifa Harun-al-Rashid (786-809 AD) was able to extend the frontiers of Sindh on its western side. For nearly two hundred years since its conquest by Muhammad Bin Qasim, Sindh remained an integral part of the Umayyad and the Abbasid caliphates. The provincial governors were appointed directly by the central government. History has preserved a record of some 37 of them.
+  
+  The Arab rule brought Sindh within the orbit of the Islamic civilization, Sindhi language was developed and written in the naskh script. Education became widely diffused and Sindhi scholars attained fame in the Muslim world. Agriculture and commerce progressed considerably. Ruins of Mansura, the medieval Arab capital of Sindh (11 kms south east of Shahdadpur) testify to the grandeur of the city and the development of urban life during this period.
+  
+  In the 10th century, native people replaced the Arab rule in Sindh. Samma and Soomra dynasties ruled Sindh for long. These dynasties produced some rulers who obtained fame due to judicious dispensation and good administration.
+  
+  Sindh was partially independent and the scene of great disorders till late in the sixteenth century when it failed into the hands of Emperor Akbar, and for a hundred and fifty years the chiefs paid tribute, but only as often as they were compelled to do so, to the Emperor at Delhi. Later the Kalhora clan claiming descent from the house of Abbas and long settled in Sindh produced religious leaders of whom Main Adam Shah attained prominence in the 16th century. His descendants continued to gather large following and this enabled them to capture political power in the north western Sindh under the leadership of Mian Nasir Muhammad. This happened in the 2nd half of the 17th century. By the turn of that century, foundations of the Kalhora power were firmly laid in the northern Sindh under the leadership of Mian Yar Mohammad. During the reign of his son, Mian Noor Muhammad, lower Sindh with Thatta as its capital came under the Kalhora administration (1150 A.H).
+  
+  Under the banner of Mir Fateh Ali Khan Talpur, the Balochis defeated the last Kalhora ruler Mian Abdul Nabi in the battle of Halani in 1782 AD. Talpur Amirs regained the parts of Sindh (Karachi, Khairpur, Sabzal Kot and Umar Kot) which the last Kalhora chief had conceded to the neighboring rulers. By eliminating the foreign interference, which had plagued the Kalhora rule, and by their essentially democratic way of governance, the Talpurs were able to take the people into confidence and thus achieved.
+  
+  Great many things within a short period of 60 years. They built up an excellent system of forts and outposts guarding the frontiers, extended the irrigation system, encouraged scholarly pursuits and educational institutions, and promoted trade and commerce internally as well as with the neighboring countries.
+  
+  The British who came to Sindh also as traders became so powerful in rest of the sub-continent that in 1843 Sindh lost its independence falling prey to the British imperialistic policy. The Talpurs were defeated on the battlefields of Miani, Dubba and Kunhera and taken prisoners. The conquerors behaved inhumanly with the vanquished as they did with the Muslim rulers in India. Charles Napier who commanded the troops subsequently became the first Governor of the province of Sindh.
+  
+  The British had conquered Sindh from their bases in Bombay and Kutch and their supporters were Hindus. Therefore, Sindh was annexed to the Bombay Presidency in 1843 and a constant policy to subdue the Muslim majority and to lionize the Hindu minority in Sindh was followed. Trade and commerce, Services and education became monopolies in the hands of the minority whom with the support of the rulers wrought havoc on Muslims. Within a few years forty percent of the Muslim land holdings passed on to the Hindu creditors. It was after a long struggle that the cause of Sindh was supported by the Quaid-e-Azam Mohammad Ali Jinnah when he brought in his famous 14-points the demand of Sindh's separation from Bombay Presidency. H.H. Sir Agh Khan, G.M. Syed, Sir Abdul Qayyum Khan (NWFP) and many other Indian Muslim leaders also played their pivotal rule that was why the Muslims of Sindh succeeded in getting Sindh separated from the Bombay Presidency in 1936.</p>
+  <div class="bal">
+
+    <h1>Balochistan
+    </h1>
+  </div>
+  <img class="sii" src="images/baloch.jpeg">
+  <p class="BAL">The earliest evidence of human occupation in what is now Balochistan is dated to the Paleolithic era, represented by hunting camps, as well as chipped and flaked stone tools. The earliest settled villages in the region date to the ceramic Neolithic (c. 7000–5500 BCE),[1] and included the Neolithic site of Mehrgarh located in the Kachi Plain. These villages expanded in size during the subsequent Chalcolithic, when interaction increased. This involved the movement of finished goods and raw materials, including chank shell, lapis lazuli, turquoise, and ceramics. By the Bronze Age in 2500 BCE, Balochistan had become part of the Harappan cultural orbit, providing key resources to the expansive settlements of the Indus river basin to the east. Pakistani Balochistan marked the westernmost extent of the Indus Valley civilisation.
+
+    The remnants of the earliest people in Balochistan were the Brahui people, a Dravidian speaking people. The Brahuis were originally Hindus and Buddhists, similar to the Indo-Aryan and Dravidian speaking peoples in the rest of the subcontinent. The Brahuis retained the Dravidian language throughout the millennias.[2]
+    
+    In 650 BC, the Greek historian Herodotus described the Paraitakenoi as a tribe ruled by Deiokes, a Persian zaid, in north-western Persia (History I.101). The Achaemenids established the Satrapies of Gedrosia and Arachosia in Balochistan after its conquest in 6th century BCE. Arrian described how Alexander the Great encountered the Pareitakai in Bactria and Sogdiana, and had Craterus conquer them (Anabasis Alexandrou IV). The Periplus of the Erythraean Sea in the 1st century described the territory of the Paradon beyond the Ommanitic region on the coast of modern Baluchistan.[3]
+    
+    Ancient empires at the time of Alexander the Great
+    After the victory of the Mauryan Empire against the Greeks in the Seleucid–Mauryan war, much of Baluchistan came under the rule of Chandragupta Maurya of ancient India. Chandragupta and Seleucus made a peace settlement in 303 BCE. Selecucus Nucator ceded the satrapies, including those in Baluchistan to the expanding Mauryan Empire.[4] The alliance was solidified with a marriage between Chandragupta Maurya and a princess of the Seleucid Empire. The outcome of the arrangement proved to be mutually beneficial.[5] The border between the Seleucid and Mauryan Empires remained stable in subsequent generations, and friendly diplomatic relations are reflected by the ambassador Megasthenes, and by the envoys sent westward by Chandragupta's grandson Ashoka.[5]
+    
+    From the 1st century to the 3rd century CE, the region of modern Pakistani Balochistan was ruled by the Pāratarājas, the "Pātatahaa Kings", a dynasty of Indo-Scythian or Indo-Parthian kings.[citation needed] The Parata kings are essentially known through their coins, which typically exhibit the bust of the ruler with long hair in a headband on the obverse and a swastika within a circular legend on the reverse, written in Brahmi, usually silver coins, or Kharoshthi copper coins.[citation needed] These coins are mainly found in Loralai in today's western Pakistan.[citation needed] In 635 or 636 CE, the .</p>
+  </div>
+ 
+    <div class="pesha">
+      <h1>PESHAWAR
+      </h1>
+    </div>
+    <img class="sii" src="images/kkkkk.jpg">
+    <p class="pesh">The British laid out the vast Peshawar Cantonment to the west of the city in 1868, and made the city its frontier headquarters.[23] Additionally, several projects were initiated in Peshawar, including linkage of the city by railway to the rest of British India and renovation of the Mohabbat Khan mosque that had been desecrated by the Sikhs.[10] The British also constructed Cunningham clock tower, in celebration of the Golden Jubilee of Queen Victoria, and, in 1906, constructed Victoria Hall (now home of the Peshawar Museum) in memory of Queen Victoria.[10] The British greatly contributed to the establishment of Western-style education in Peshawar with the establishment of Edwardes College and Islamia College in 1901 and 1913, respectively—these were established in addition to numerous other schools, many of which are run by the Anglican Church.[10] For better administration of the region, Peshawar and the adjoining districts were separated from the Punjab Province in 1901.[34]
+
+      Communal riots broke out in the old city of Peshawar during the spring of 1910, when the annual Hindu festival of Holi coincided with Barawafat, the annual Muslim day of mourning, resulting in a considerable loss of life along with hundreds of looted businesses and injuries.[b][36] A month prior, in February 1910, prominent community religious leaders met with officials and agreed that Holi would be solely celebrated in predominantly Hindu neighbourhoods of the city, notably in Andar Shehr and Karim Pura.[c] On March 21, 1910, however, rumors of musicians from Amritsar and a dancing boy from Haripur being brought into the city for Holi celebrations, led to a group of individuals who were marking Barawafat into forming a mob with the intention of stopping the procession.[d] Despite Muslim and Hindu community leaders calling for calm, both parties ultimately clashed at the Asamai Gate, when the Holi procession was en route to Dargah Pir Ratan Nath Jee, with a Hindu procession member stabbing a Muslim individual in the mob.[e] Riots ensued for the following three days, involved individuals from outlying tribal regions who had entered the city, with a mob at Bara Bazar allegedly chanting “Maro Hindu Ko” (Kill the Hindus).[f] Estimates detail the riots resulted in a total of 451 damaged shops and homes, primarily belonging to members of the Hindu community, while at least 4 Muslims and 6 Hindus were killed, alongside hundreds of injuries.[36]
+      
+      Peshawar emerged as a centre for both Hindko and Pashtun intellectuals. Hindko speakers, also referred to as Khaarian ("city dwellers" in Pashto) or Hindkowans, were responsible for the dominant culture for most of the time that Peshawar was under British rule.[37]
+      
+      Peshawar was the scene of a non-violent resistance movement that was led by Ghaffar Khan, a disciple of Mohandas Gandhi. In April 1930, Khan led a large group of locals, in a peaceful protest in Qissa Khawani Bazaar, against discriminatory laws that had been enacted by the colonial government — hundreds were killed when a detachment of the British Indian Army opened fire on the demonstrators.[38]The British laid out the vast Peshawar Cantonment to the west of the city in 1868, and made the city its frontier headquarters.[23] Additionally, several projects were initiated in Peshawar, including linkage of the city by railway to the rest of British India and renovation of the Mohabbat Khan mosque that had been desecrated by the Sikhs.[10] The British also constructed Cunningham clock tower, in celebration of the Golden Jubilee of Queen Victoria, and, in 1906, constructed Victoria Hall (now home of the Peshawar Museum) in memory of Queen Victoria.[10] The British greatly contributed to the establishment of Western-style education in Peshawar with the establishment of Edwardes College and Islamia College in 1901 and 1913, respectively—these were established in addition to numerous other schools, many of which are run by the Anglican Church.[10] For better administration of the region, Peshawar and the adjoining districts were separated from the Punjab Province in 1901.[34]
+
+      Communal riots broke out in the old city of Peshawar during the spring of 1910, when the annual Hindu festival of Holi coincided with Barawafat, the annual Muslim day of mourning, resulting in a considerable loss of life along with hundreds of looted businesses and injuries.[b][36] A month prior, in February 1910, prominent community religious leaders met with officials and agreed that Holi would be solely celebrated in predominantly Hindu neighbourhoods of the city, notably in Andar Shehr and Karim Pura.[c] On March 21, 1910, however, rumors of musicians from Amritsar and a dancing boy from Haripur being brought into the city for Holi celebrations, led to a group of individuals who were marking Barawafat into forming a mob with the intention of stopping the procession.[d] Despite Muslim and Hindu community leaders calling for calm, both parties ultimately clashed at the Asamai Gate, when the Holi procession was en route to Dargah Pir Ratan Nath Jee, with a Hindu procession member stabbing a Muslim individual in the mob.[e] Riots ensued for the following three days, involved individuals from outlying tribal regions who had entered the city, with a mob at Bara Bazar allegedly chanting “Maro Hindu Ko” (Kill the Hindus).[f] Estimates detail the riots resulted in a total of 451 damaged shops and homes, primarily belonging to members of the Hindu community, while at least 4 Muslims and 6 Hindus were killed, alongside hundreds of injuries.[36]
+      
+      Peshawar emerged as a centre for both Hindko and Pashtun intellectuals. Hindko speakers, also referred to as Khaarian ("city dwellers" in Pashto) or Hindkowans, were responsible for the dominant culture for most of the time that Peshawar was under British rule.[37]
+      
+      Peshawar was the scene of a non-violent resistance movement that was led by Ghaffar Khan, a disciple of Mohandas Gandhi. In April 1930, Khan led a large group of locals, in a peaceful protest in Qissa Khawani Bazaar, against discriminatory laws that had been enacted by the colonial government — hundreds were killed when a detachment of the British Indian Army opened fire on the demonstrators.[38]</p>
+    </div>
+      <div class="que">
+    <h1>QUETTA</h1>
+      </div>
+      <img class="sii" src="images/qqqqqqqqqqqqqqqqqqq.jpg">
+<p class="qq">The immediate area has long been one of pastures and mountains, with varied plants and animals relative to the dry plains to the west.
+  From 11th century, the land of Quetta was owned and ruled by the Kasi Pashtun tribe. It was captured by Sultan Mahmud Ghaznavi during his invasion of South Asia.[9] In 1543, Mughal emperor Humayun came to Quetta en route to Safavid Persia, leaving his son and future Mughal emperor Akbar here. In 1709, the region was a part of Afghan Hotak dynasty and stayed a part until 1747 when Ahmed Shah Durrani conquered it and made it a part of Durrani Empire. The first European visited Quetta in 1828, describing it as mud-walled fort surrounded by three hundred mud houses.[10]
+  
+  In 1876, Quetta was occupied by the British and subsequently incorporated into British India.[9] In 1856, British General John Jacob had urged his government to occupy Quetta given its strategic position on the western frontier.[11] British troops constructed the infrastructure for their establishment.
+  Map of Quetta in 1935
+  By the time of the earthquake on 31 May 1935, Quetta had developed into a bustling city with a number of skyscraper buildings and so was known as "Little London".[citation needed] The epicentre of the earthquake was close to the city and destroyed most of the city's infrastructure, killing an estimated 40,000 people.[12]</p></div>
+  <div class="Kash">
+    <h1>Kashmir</h1>
+  </div>
+  <img class="sii" src="images/kas1.jpg">
+  <p class="para">The Kashmir dispute—one of the most intransigent political conflicts in Asia—has its beginnings in the end of British colonial rule over India and the subsequent Partition of the Indian subcontinent in 1947, which left the princely state of Jammu and Kashmir divided into an Indian-administered region and a Pakistani-administered region.1 Some argue that the crisis has its origins in the British sale of Kashmir to Maharaja Gulab Singh in 1846 and the establishment of a feudatory Dogra state under the suzerainty of British India. The legitimacy of the Dogra state was often challenged by its Kashmiri Muslim subjects, which culminated in a revolt against it in the 1930s, supported by the leaders of the Indian freedom struggle. Even though India’s struggle for freedom ended with the rise of India and Pakistan as independent states, the Kashmiri sense of political dispossession was made more acute by the dispute between India and Pakistan over Kashmir that erupted in 1947 and led to the first India–Pakistan War of 1948. A series of missteps by the Indian government from the 1950s to the 1970s aggravated the crisis in Indian-administered Kashmir, which escalated by the late 1980s to a full-scale anti-India insurgency that has left the region devastated. One of the main reasons for the anti-India insurgency was the denial of democratic rights (such as fair elections and civil liberties) to the people of Kashmir. More than 75,000 lives have been lost and thousands have disappeared or been internally displaced. The rise of Islamism in Kashmir in the 1990s, the displacement of Kashmir’s Hindu minority from Kashmir, and massive human rights violations add further layers of complication to the crisis. Even though cinematic representations of Kashmir go as far back as the beginnings of the crisis in 1947–1948, it was only after the Kashmiri insurgency had been pushed into retreat by the late 1990s that Kashmiri and Indian filmmakers turned to the documentary film form to reflect on the conflict. This article introduces the reader to ten documentary films that follow a nuanced and critical approach to the Kashmir conflict. Even though I discuss two documentary films made on Kashmir by an Israeli and an American filmmaker, the focus of this article is on documentary film narratives on Kashmir by Kashmiri and Indian filmmakers.
+
+A war broke out between India and Pakistan within weeks of their freedom in October 1947 over the future of Kashmir. The first documentary on the 1947–1948 war over Kashmir, which was to shape the future of relations between India and Pakistan, arrived as early as 1948. B. D. Garga, an Indian documentary filmmaker and film historian, made Storm over Kashmir (1948), one of the first documentary films on the Kashmir conflict. Garga was in Kashmir at the same time as the legendary French photographer Henri Cartier Bresson and was urged to make this film by the senior activists of the Indian Left, who had rallied to support the Indian military effort in Kashmir against the irregulars of the Pakistan Army.2 This film, which portrays ordinary Kashmiris as the victims of Pakistani aggression, scripted by the Urdu writer Rajinder Singh Bedi, set the tone for Indian cinematic narratives on Kashmir that persist to the present. But the independent documentary films from the early 2000s take a very critical approach to such statist representations of Kashmir and advance a more complex understanding.
+
+These ten documentary films with English subtitles on Indian-administered Kashmir (many of them by Kashmiris) are critical to understanding the Kashmir conflict in the present.
+
+Tell Them “The Tree They Had Planted Has Now Grown”</p></div>
+<div class="gil">
+  <h1>Gilgit</h1>
+</div>
+<img class="sii" src="images/gilgir.jpg">
+<p class="para1">he region, together with Azad Kashmir in the southwest, is grouped and referred to by the United Nations and other international organisations as "Pakistan-administered Kashmir".[note 1] Gilgit-Baltistan is six times larger than Azad Kashmir in terms of geographical area.[18]
+
+  The territory of present-day Gilgit-Baltistan became a separate administrative unit in 1970 under the name "Northern Areas". It was formed by the amalgamation of the former Gilgit Agency, the Baltistan district, and several small former princely states, the largest of which were Hunza and Nagar.[19] In 2009, the region was renamed to "Gilgit-Baltistan" and granted limited autonomy through the Self-Governance Order signed in by former Pakistani president Asif Ali Zardari, a move that was reportedly intended to also empower the territory's people; however, scholars state that the real power rests with the governor and not with the chief minister or elected assembly.[20][21] Much of the population of Gilgit-Baltistan reportedly wants the territory to become integrated with Pakistan proper as a fifth province, and opposes integration with the rest of the Kashmir region.[22][23] The Pakistani government had rejected calls from the territory for provincial status on the grounds that granting such a request would jeopardise Pakistan's demands for the entire Kashmir conflict to be resolved according to all related United Nations resolutions.[24] However, in November 2020, Pakistani prime minister Imran Khan announced that Gilgit-Baltistan would attain provisional provincial status after the 2020 Gilgit-Baltistan Assembly election.[25][26][27]
+  
+  Gilgit-Baltistan covers an area of over 72,971 km2 (28,174 sq mi)[7] and is highly mountainous. It had an estimated population of 1.249 million people in 2013[28][29] (estimated to be 1.8 million in 2015 (Shahid Javed Burki (2015)). Its capital city is Gilgit with an estimated population of 216,760. The economy is dominated by agriculture and the tourism industry.[30] The region is home to five of the 14 eight-thousanders, including K2, and additionally has more than fifty mountain peaks above 7,000 metres (23,000 ft). Three of the world's longest glaciers outside of Earth's polar regions are found in Gilgit-Baltistan. The main tourism activities are trekking and mountaineering, and this industry has been growing in importance throughout the region.</p></div>
+  <div class="sk">
+<h1>Skardu</h1>
+  </div>
+  <img class="sii" src="images/sinndkdf.jpg">
+  <p class="para2">Skardu is basically a town in the Gilgit-Baltistan Region of Pakistan and the capital of Baltistan. Its elevation is about 2,438 metres (7,999 feet) above sea level. It lies in the foothill of the Karakoram Mountain Range. Mainly Balti people are of Tibetan and Caucasian origin. They speak Balti, which is a dialect of ancient Tibetan language. Since the culture, lifestyle and architecture of Baltistan greatly resemble with Tibet, that’s why it is often called “Tibet-e-Khurd” (Mini Tibet).
+
+    Significance of Skardu:
+    Skardu is the 10 kilometres (6 miles) wide and 40 kilometres (25 miles) long area. It is at the confluence of the Indus River, which is flowing from Kailash in Tibet and passes through neighboring Ladakh, before entering into Baltistan, where it joins the Shigar River. The altitude of Skardu is 2,500 metres (8,200 feet) above sea level.
+    
+    It borders with the Chinese Province of Xinjiang and Indian Kashmir (IHK). The tourist season starts from April and ends in October. It is famous for the variety of tasty, juicy and aromatic fruits as well as dry-fruit, like peaches, apricots, apples, pears, etc. Beside its mighty cluster of Desert Peaks and Glaciers, there are five beautiful valleys in Baltistan;
+    
+    Shigar
+    Skardu
+    Khaplu
+    Roundu
+    Kharmang
+    Nansoq Village:
+    A stroll around the Eastern end of the Skardu rock, will take to the nearby village of Nansoq. The village of Nansoq is just behind the Kharpocho Fort in Skardu. It is a famous historical site, declared as an Organic village and developed by the Aga Khan Rural Support Program (AKRSP). So many dignitaries including Prince Charles and His Highness Sir Aga Khan, visited it.
+    
+    There is a large spring of clear water, flowing from the base of the monolith. On reaching Nansoq, walk to the far end of the Skardu Polo field and pick up a trail to the outskirts of the rocky slopes, where there is a Fortress of Zowar Singh. The mighty meandering Indus is just a few yards beneath the feet, along the silvery white sand. On the Western side of bank of the Sadpara Nullah, there is a vertical, beige-color Northern face of a tall rock, carved in circa A.D 900. It is a lovely image of a meditating Maitreya Buddha framed by Bodhisattvas.</p></div>
+    <div class="end">
+      <div class="first">
+        <h3 class="heading">our partners</h3>
+      </div>
+      
+      <div class="logos">
+        <img class="circle" src="images/l1-removebg-preview.png">
+        <img class="circle" src="images/l2-removebg-preview.png">
+        <img class="circle" src="images/l3-removebg-preview.png">
+        <img class="circle" src="images/fdfdfdfgd.png">
+      </div>
+      <div class="center"><h3 class="heading">for more</h3></div>
+      
+            <div class="btn-group " style="margin-left: 45%;margin-top: 20px; ">
+              <a href="https://www.facebook.com/" class="btn btn-outline-primary"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" class="btn btn-outline-success"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=https://pk.linkedin.com/" class="btn btn-outline-danger"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://google.com/" class="btn btn-outline-primary"><i class="fa-brands fa-google"></i></a>
+              <a href="https://youtube.com/" class="btn btn-outline-danger"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+             
+          <div class="last">
+            <ul>
+              <li><a href="">Terms & conditions</a></li>
+              <li>|</li>
+              <li><a href="">Contact us</a></li>
+              <li>|</li>
+              <li><a href="">www.travel&tours.com</a></li>
+              <li>|</li>
+              <li><a href="">phone:858459408934</a></li>
+            </ul>
+          </div>
+          <div class="foot2">
+            <p class="copy">Copyright &copy;2023 designed by<span class="designer"> Hafsa Alam</span></p>
+        </div>
+</body>
+</html>
